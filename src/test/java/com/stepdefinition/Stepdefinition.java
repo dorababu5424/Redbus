@@ -5,15 +5,19 @@ import cucumber.api.java.en.When;
 
 public class Stepdefinition {
 
-	
-	
-	
-	@Given(": user should AdactinPage URL")
-	public void user_should_AdactinPage_URL() {
+	@Given(": user should On redbus page")
+	public void user_should_On_redbus_page() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new cucumber.api.PendingException();
 	}
 
+	@When("select on date")
+	public void select_on_date() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+	
+	
 	@When("user enter Username and password")
 	public void user_enter_Username_and_password(io.cucumber.datatable.DataTable dataTable) {
 	    // Write code here that turns the phrase above into concrete actions
@@ -26,10 +30,16 @@ public class Stepdefinition {
 	    throw new cucumber.api.PendingException();
 	}
 
-	@When("user should click on login Butto")
-	public void user_should_click_on_login_Butto() {
+	@When("user should click on l search button")
+	public void user_should_click_on_l_search_button() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new cucumber.api.PendingException();
 	}
+
+
+
+	
+	
+	
 
 }
